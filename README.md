@@ -1,6 +1,6 @@
 # Breast Cancer Example
 
-**followed Machine Learning blog post from https://aws.amazon.com/blogs/machine-learning/call-an-amazon-sagemaker-model-endpoint-using-amazon-api-gateway-and-aws-lambda/**
+**adapted from https://aws.amazon.com/blogs/machine-learning/call-an-amazon-sagemaker-model-endpoint-using-amazon-api-gateway-and-aws-lambda/**
 
 This example notebook shows how to use Sagemaker's linear-learner to predict breast cancer. It demonstrates the following:
 * Basic setup for using Sagemaker.
