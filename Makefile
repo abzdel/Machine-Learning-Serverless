@@ -4,8 +4,13 @@ install:
 
 format:
 	black *.py
+	black tests/*.py
+	black setup/*.ipynb
 
 lint:
-	pylint --disable=R,C *.py
+	pylint --disable=R,C tests/*.py
 
-all: install lint format
+test:
+	pytest tests/test-invoke.py
+
+all: install test format

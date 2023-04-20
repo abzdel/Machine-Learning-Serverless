@@ -1,0 +1,9 @@
+pytest
+pylint
+black
+black[jupyter]
+requests
+boto3
+sagemaker
+pandas
+numpy
