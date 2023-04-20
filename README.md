@@ -1,3 +1,4 @@
+[![Makefile CI](https://github.com/nogibjj/Machine-Learning-Serverless/actions/workflows/makefile.yml/badge.svg)](https://github.com/nogibjj/Machine-Learning-Serverless/actions/workflows/makefile.yml)
 # Serverless Machine Learning Model
 
 A linear model used to classify breast cancer instances using UCI'S breast cancer diagnostic data set. Model is trained using AWS Sagemaker and invoked using Amazon API Gateway and an AWS Lambda function.
